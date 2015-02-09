@@ -25,7 +25,7 @@ if($called_position == 'after_module_proc' && Context::get('document_list')){
 		}
 		// 모듈 번호를 받아오지 못한 게시판이 있을 경우 빈배열이 생겨 에러가 생기기 때문에
 		// 빈 배열 제거
-		$moudle_srl = array_filter($module_srl);
+		$module_srl = array_filter($module_srl);
 		$module_srl = implode(',',$module_srl);
 
 		// 애드온의 사용 설정에 따른 범위 선택
