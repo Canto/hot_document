@@ -4,7 +4,7 @@
     <description xml:lang="ko">
         추천 수가 정해진 범위 위에 해당하는 글들을 공지사항 위치에 표시합니다.
     </description>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
     <date>2015-01-07</date>
     <author email_address="canto87@naver.com" link="http://canto.btool.kr">
         <name xml:lang="ko">Canto</name>
