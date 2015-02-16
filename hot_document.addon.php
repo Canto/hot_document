@@ -5,7 +5,7 @@
  * @author Canto ( m.canto87@gmail.com )
  **/
 if(!defined('__XE__')) exit();
-if($called_position == 'after_module_proc' && Context::get('document_list')){
+if($called_position == 'after_module_proc' && Context::get('document_list') && class_exists('documentItem')){
 	// 접속 모듈 정보 취득
 	$module_info = Context::get('module_info');
 
